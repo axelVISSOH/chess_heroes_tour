@@ -10,7 +10,6 @@ import { SingleHeroComponent } from './hero/single-hero/single-hero.component';
 import { AllHeroesComponent } from './all-heroes/all-heroes.component';
 import { AllHeroesListComponent } from './all-heroes/all-heroes-list/all-heroes-list.component';
 import { AllHeroesDetailsComponent } from './all-heroes/all-heroes-details/all-heroes-details.component';
-import { HeroEditComponent } from './hero/hero-edit/hero-edit.component';
 import { EditHeroComponent } from './hero/edit-hero/edit-hero.component';
 import { ButtonHeroComponent } from './buttons/button-hero/button-hero.component';
 
@@ -25,7 +24,6 @@ import { ButtonHeroComponent } from './buttons/button-hero/button-hero.component
     AllHeroesComponent,
     AllHeroesListComponent,
     AllHeroesDetailsComponent,
-    HeroEditComponent,
     EditHeroComponent,
     ButtonHeroComponent
   ],
