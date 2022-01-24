@@ -1,0 +1,66 @@
+.hero-card {
+    box-sizing: border-box;
+    max-width: 400px;
+    max-height: 150px;
+    margin-bottom: 75px;
+    box-shadow: lightgray 4px 4px 20px;
+    position: relative;
+    display: flex;
+}
+
+h2{
+    font-family: Comic Sans MS;
+    font-size: 22px;text-align: center;
+}
+
+img{
+    position: relative;
+    top: -2.5em;
+    left: -1em;
+    width: 150px;
+    height: 170px;
+}
+h2 > span{
+    left: 10em;
+}
+p{
+    font-size: 11px;
+    width: auto;
+    height: auto;
+    text-align: justify;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 170px;
+    position: relative;
+    top: 0em;
+    left: -1em;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: lightgray 3px 3px 7px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0em;
+    right: 50m;
+    width: 100px;
+    align-self: flex-end;
+}
+button:active {
+    transform: translate(1px, 1px);
+    box-shadow: lightgray 0 0 5px;
+}

@@ -1,1 +1,9 @@
-<p>single-hero works!</p>
+<!--<a class="list-group-item list-group-item-action hero-card" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><span class="pawn">♟️</span> {{ hero.name | titlecase}} <span *ngIf="hero.isTop">❤️</span></a>-->
+<div class="hero-card">
+    <img class="" src="../../../assets/img/knight_2.png" alt="">
+    <div class="hero-content">
+        <h2> {{ hero.name | titlecase }} <span *ngIf="hero.isTop">❤️</span></h2>
+        <p *ngIf="hero.quotes !==''"> {{ "<<"+ hero.quotes+">>"}}</p>        
+        <button class="pull-right">VIEW</button>   
+    </div>    
+</div>
